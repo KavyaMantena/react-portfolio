@@ -1,11 +1,130 @@
-body {
-  margin: 0;
-  background-image: url("../src/assets/Coverimage/CoverImage.webp");
-  color: black;
-  font-family: "Poiret One", cursive;
+main {
 }
 
-code {
+body {
+  margin: 0;
+  font-weight: 1000px;
+  font-size: 20px;
+  background-image: url("../src/assets/Coverimage/Watercolor-Image.webp");
+  color: darkslategrey;
+  font-family: Cambria, Cochin;
+}
+
+h1 {
+  font-family: Cambria, Cochin;
+  font-size: 30px;
+  padding: 22px;
+  padding-left: 80px;
+}
+
+h2 {
+  font-family: Cambria, Cochin;
+  font-size: 20px;
+  padding-left: 45px;
+}
+
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+} */
+
+.page-footer {
+  background-color: darkslategrey;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.logo {
+  width: 40px;
+}
+
+.github-project {
+  width: 450px;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+nav li {
+  cursor: pointer;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-thumbnail {
+  height: 300px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+form {
+  width: 40%;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid black;
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+input:focus {
+  border: 1px solid orange;
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
+}
+
+.mx-1 {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.px-1 {
+  padding-right: 25px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: darkslategrey;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 {
+  margin-left: 28px;
+  font-size: 28px;
+}
+li {
+  list-style: none;
+}
+
+.name {
+  margin-left: 38px;
+  padding: 19px;
+  font-size: 34px;
+}
+
+.resume-list > li {
+  list-style-type: disc;
+}
+
+.main-style {
+  margin-top: 80px;
+}
+
+p {
+  text-align: center;
 }

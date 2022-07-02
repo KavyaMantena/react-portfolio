@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import Nav from "./components/Nav";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
+import ContactForm from "./components/Contact";
+import Resume from "./components/Resume";
+import Footer from "./components/Footer";
 
 function App() {
   const [categories] = useState([
-    { name: "About me", description: "About me" },
-    { name: "Portfolio", description: "My projects" },
-    { name: "Contact Me", description: "Contact me" },
+    { name: "About Me", description: "About Me" },
+    { name: "Portfolio", description: "Portfolio" },
+    { name: "Contact", description: "Contact me" },
     { name: "Resume", description: "Resume" },
   ]);
 
@@ -15,15 +18,26 @@ function App() {
 
   return (
     <div>
-      <Nav>
+      <Nav
         categories={categories}
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}
-      </Nav>
-      <main>
-        <About></About>
-        <Portfolio currentCategory={currentCategory}></Portfolio>
+      ></Nav>
+      <main className="main-style">
+        {currentCategory.name === "About Me" && <About />}
+        {currentCategory.name === "Portfolio" && <Portfolio></Portfolio>}
+        {currentCategory.name === "Contact" && <ContactForm />}
+        {currentCategory.name === "Resume" && <Resume />}
+        {/* {!contactSelected ? (
+          <>
+            <Portfolio currentCategory={currentCategory}></Portfolio>
+            <About></About>
+          </>
+        ) : (
+          <ContactForm></ContactForm>
+        )} */}
       </main>
+      <Footer></Footer>
     </div>
   );
 }

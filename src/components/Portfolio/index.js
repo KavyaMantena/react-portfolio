@@ -6,7 +6,7 @@ function Portfolio(props) {
   return (
     <section>
       <h1 data-testid="h1tag">{capitalizeFirstLetter("Portfolio")}</h1>
-      <p>My Projects</p>
+      <h2>My projects</h2>
       <PhotoList category={"portfolio"} />
     </section>
   );
