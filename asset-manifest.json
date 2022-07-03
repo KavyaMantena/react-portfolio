@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.47c893fc.css",
+    "main.js": "/react-portfolio/static/js/main.bb94c0bc.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/screenshot1.png": "/react-portfolio/static/media/screenshot1.f653562e867721bd88f6.png",
+    "static/media/screenshot5.png": "/react-portfolio/static/media/screenshot5.32d058eb6a3eb7a0e006.png",
+    "static/media/screenshot3.png": "/react-portfolio/static/media/screenshot3.0d458dd12f09775947e4.png",
+    "static/media/screenshot2.png": "/react-portfolio/static/media/screenshot2.27f999d93409633f2444.png",
+    "static/media/screenshot4.png": "/react-portfolio/static/media/screenshot4.c178365a0ab3ae35ea2d.png",
+    "static/media/screenshot6.png": "/react-portfolio/static/media/screenshot6.18e4e8d030aeb8591adb.png",
+    "static/media/linkedinlogo.jpeg": "/react-portfolio/static/media/linkedinlogo.2fec4b443f3c943d0776.jpeg",
+    "static/media/Resume.jpg": "/react-portfolio/static/media/Resume.23ca9d4b94b7fc2d7343.jpg",
+    "static/media/img_photo.jpeg": "/react-portfolio/static/media/img_photo.54b9bf3a46e835963a69.jpeg",
+    "static/media/Watercolor-Image.webp": "/react-portfolio/static/media/Watercolor-Image.3df0c67b6dd9d9bad062.webp",
+    "static/media/githublogo.png": "/react-portfolio/static/media/githublogo.0f64ee9d94f01a238131.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.47c893fc.css.map": "/react-portfolio/static/css/main.47c893fc.css.map",
+    "main.bb94c0bc.js.map": "/react-portfolio/static/js/main.bb94c0bc.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47c893fc.css",
+    "static/js/main.bb94c0bc.js"
+  ]
+}
