@@ -1,3 +1,21 @@
+# Description
+
+My portfolio webpage build with React.
+
+# Built With
+
+React
+Node
+Javascript
+
+# Github
+
+https://github.com/KavyaMantena/react-portfolio
+
+# Deployed Site
+
+https://kavyamantena.github.io/react-portfolio/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
