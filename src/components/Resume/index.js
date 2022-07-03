@@ -5,7 +5,11 @@ function Resume() {
     <section>
       <h1>Resume</h1>
       <div>
-        <div>Download Resume</div>
+        <div>
+          <a href={require(`../../assets/Resume.jpg`)} download>
+            Download Resume
+          </a>
+        </div>
         <h2>Front-end Proficiencies</h2>
         <ul className="resume-list">
           <li>HTML</li>
